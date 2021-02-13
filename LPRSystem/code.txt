@@ -1,0 +1,7 @@
+pyuic5 -x ui_main.ui -o ui_main.py
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PySide2 import QtCore, QtGui, QtWidgets #this is IMPORTANT AND self.centralwidget = QtWidgets.QWidget(MainWindow)
+#CONVERT TO self.centralwidget = QWidget(MainWindow)
+from PySide2.QtWidgets import * #This is IMPORTANT
